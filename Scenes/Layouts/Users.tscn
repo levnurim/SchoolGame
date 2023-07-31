@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="Users" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Background" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.545098, 0.545098, 0.545098, 1 )
+
+[node name="Header" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 0.048
+margin_bottom = 0.199999
+color = Color( 0.407843, 0.407843, 0.407843, 1 )
+
+[node name="UsersList" type="Control" parent="."]
+anchor_top = 0.047
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.200001
